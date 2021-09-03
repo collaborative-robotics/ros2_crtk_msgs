@@ -20,7 +20,7 @@ rosidl_generate_interfaces (crtk_msgs
   "msg/OperatingState.msg"
   "msg/StringStamped.msg"
   "srv/TriggerOperatingState.srv"
-  DEPENDENCIES builtin_interfaces
+  DEPENDENCIES builtin_interfaces std_msgs
   )
 
 ament_package ()
