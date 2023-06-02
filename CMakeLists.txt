@@ -20,6 +20,8 @@ find_package (rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces (crtk_msgs
   "msg/OperatingState.msg"
   "msg/StringStamped.msg"
+  "msg/CartesianImpedanceHalfPlaneGains.msg"
+  "msg/CartesianImpedance.msg"
   "srv/TriggerOperatingState.srv"
   "srv/QueryForwardKinematics.srv"
   "srv/QueryInverseKinematics.srv"
