@@ -1,5 +1,5 @@
 # ROS 2 crtk_msgs
 
-CRTK specific messages and services for ROS 2.
+:warning: The content of this repository has been moved to crtk_msgs which can now support ROS1 and ROS2.
 
 See crtk-robotics.readthedocs.io
